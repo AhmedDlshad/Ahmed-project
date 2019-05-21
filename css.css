@@ -1,0 +1,184 @@
+*{
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+
+}
+
+.img3{
+    position: absolute;
+    left: 301px;
+    top: 130px;
+    
+}
+h1{
+    background-image: url(blodyleader.jpg);
+    background-size: cover;
+    width: 90px;
+    height: 30px;
+    font-size: 25px ;
+    color:red;
+    border: solid 2px black;
+    position: absolute;
+    left: 350px;
+    top:60px;
+    transition-property: color, border;
+    transition-duration: 2s;
+}
+h1:hover{
+    
+    color: white;
+    border:solid green 2px;
+
+}
+h2{
+    position: absolute;
+    left:500px;
+    top:60px;
+    background-image: url(blodyleader.jpg);
+    background-size:cover;
+    color:red;
+    width:160px;
+    height: 30px;
+    font-size: 25px;
+    border: solid 2px black;
+    transition-property: color, border;
+    transition-duration: 2s;
+}
+h2:hover{
+    color:white;
+    border:solid 2px red;
+
+}
+h3{
+    position:absolute;
+    left:720px;
+    top:60px;
+    background-image: url(blodyleader.jpg);
+    background-size: cover;
+    color:red;
+    border:2px solid black;
+    font-size:25;
+    height:30px;
+    width:85px;
+    transition-property: color, border;
+    transition-duration: 2s;
+
+}
+h3:hover{
+    color:white;
+    border: solid green 2px;
+}
+
+
+
+.img2 {
+    
+    background-color: #E41010  ;
+    position:absolute;
+    left: 300px;
+    top: 91px;
+    animation-duration: 15s;
+    animation-name: myfirstanimation;
+    animation-delay:2s;
+    animation-fill-mode:forwards;
+    
+    
+}
+
+
+
+@keyframes myfirstanimation {
+    0%{
+        width:0px;
+        height:0px;
+        background-color:#E41010;
+    }
+    5% {
+        width:47.5px;
+        height:38px;
+        background-color:#E41010;
+     }
+        100% {
+            width:950px;
+            height:38px;
+            background-color:#E41010;
+        }
+     
+    
+}
+.heart{
+    width:950px;
+    height:40px;
+    border: solid black 4px;
+    position:absolute;
+    top:90px;
+    left:300px;
+    transition-property: border;
+    transition-duration:4s;
+    transition-property: border;
+    transition-duration: 5s;
+    
+}
+
+.heart:hover{
+    border: solid #FF6543   4px;
+}
+h4{
+    font-size:35px;
+    border:solid 4px black;
+    width:400px;
+    background-image: url(wood.jpg);
+    background-repeat: no-repeat;
+    background-size:cover;
+    position:absolute;
+    left:575px;
+    animation-name: pirates;
+    animation-duration: 4s;
+
+}
+
+@keyframes pirates{
+    0%{top:-50px;}
+    70% {top:0px;}
+    75% {top:0px}
+    76% {top:0px;}
+    100%{top:0px;}
+}
+
+.background{
+    background-color:gray;
+}
+
+.facebook{
+    font-size: 30px;
+    color:black;
+    position:absolute;
+    left:300px;
+    top:600px;
+    border : solid 3px black;
+    width: 300px;
+    height: 140px;
+    background-image: url(facebook1.jpg);
+    background-size: cover;
+    background-repeat:no-repeat;
+    
+}
+.facebook2{
+    position:absolute;
+    left:601px;
+    top:600px;
+    border:solid 3px black;
+    width: 175px;
+    height: 140px;
+}
+.youtube{
+    background-image: url(youtube.jpg);
+    background-size: cover;
+    width:475px;
+    height:140px;
+    position: absolute;
+    left:777px;
+    top:600px;
+    border:solid 4px black;
+}
